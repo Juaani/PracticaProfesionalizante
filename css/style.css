@@ -1,0 +1,51 @@
+:root{
+    --verde-claro:#74DF00 ;
+    --naranja: #FF8000;
+    --verde-oscuro: #04B486;
+    --gris-oscuro: #2E2E2E;
+    --negro-claro: #1f1e1e;
+    --gris-claro: #848484;
+    --celeste: #2E9AFE;
+    --azul: hsla(240, 88%, 51%, 0.239);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* Estilos del modal */
+/* Estilos para el modal */
+.modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: absolute; /* Posición absoluta */
+    top: 100%; /* Colocar debajo del menú */
+    left: 0;
+    right: 0;
+    
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Asegurar que esté por encima del contenido */
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-content {
+    padding: 20px;
+    width: 300px;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+
+  footer{
+    background-image: url(../image/cabecera.jpeg) ;
+    background-repeat: repeat-x;
+   }
+   .linea{
+    background-image: url(../image/cabecera.jpeg) ;
+    background-repeat: repeat-x;
+   }
